@@ -1,0 +1,1 @@
+`cat` is a good challenge to understand how `glibc heap` handles `fast bins`. You can populate the content of fast bins to influence the program data flow if the developers do not initialize the memory (allocated via `malloc`) correctly.
