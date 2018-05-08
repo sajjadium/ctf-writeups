@@ -1,0 +1,1 @@
+`note` is a very good challenge to understand how we can exploit a `Off-By-One` bug where the program is using `scanf`. Basically, you can overwrite the `least significant byte (LSB)` of the `saved rbp` with a null byte, so you can control the stack frame for the following function calls.
