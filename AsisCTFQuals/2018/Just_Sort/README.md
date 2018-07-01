@@ -1,0 +1,1 @@
+isCTF Quals 2018 - Just Sort!` challenge, there is a `heap overflow` vulnerability that we can leak `free@GOT` address, and find `libc` base address as the result. Then, we can overwrite `free@GOT` by `one_gadget`'s address to get shell. This is a good challenge to understand how to exploit `x64_86` binaries with `Canary`, `NX`, and `ASLR` enabled.
