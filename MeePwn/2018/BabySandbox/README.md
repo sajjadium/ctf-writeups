@@ -1,0 +1,1 @@
+In `MeePwn 2018 - BabySandbox` challenge, lesson learned  is that `openat`, `readv`, and `writev` syscalls are the alternatives for `open`, `read`, and `write` syscalls, respectively, when the latter syscalls are blocked.
