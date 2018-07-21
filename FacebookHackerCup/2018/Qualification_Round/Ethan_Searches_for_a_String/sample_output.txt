@@ -1,0 +1,4 @@
+Case #1: ASUCABABACUSA
+Case #2: Impossible
+Case #3: XZYXYZXYZXZYXYZXYZYX
+Case #4: Impossible
