@@ -1,1 +1,1 @@
-This writeup only includes leakage of `stdout` to de-randomize ASLR, and as the result, get the `glibc` base address.
+In `PlaidCTF 2018 - shop` challenge, there is a `buffer overflow` vulnerability that allows us to leak `heap` and `libc` base addresses. Finally, we can overwrite `put@GOT` with `one gadget` in order to execute `/bin/sh`. This is an interesting `heap exploitation` challenge to learn bypassing protections like `NX`, `Canary`, and `ASLR` in `x86_64` binaries.
