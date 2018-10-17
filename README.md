@@ -30,7 +30,6 @@
 | [NullconCTF (2018)](https://ctftime.org/event/566) | Fri, 09 Feb., 17:00  - Sun, 11 Feb., 05:00 EDT | [pwn2-box](NullconCTF/2018/pwn2-box) | `#pwn` |
 | [CodegateCTF (2018)](https://ctftime.org/event/542) | Fri, 02 Feb., 19:00  - Sat, 03 Feb., 19:00 EDT | [BaskinRobins31](CodegateCTF/2018/BaskinRobins31) | `#pwn` |
 | [CodegateCTF (2018)](https://ctftime.org/event/542) | Fri, 02 Feb., 19:00  - Sat, 03 Feb., 19:00 EDT | [SuperMarimo](CodegateCTF/2018/Super_Marimo) | `#pwn` |
-| `#pwn` |
 | [34C3 (2017)](https://ctftime.org/event/544) | Wed, 27 Dec., 15:00  - Fri, 29 Dec., 15:00 EDT | [SimpleGC](34C3/2017/SimpleGC) | `#pwn` |
 | [SECCON (2017)](https://ctftime.org/event/512) | Sat, 09 Dec., 01:00  - Sun, 10 Dec., 01:00 EDT | [election](SECCON/2017/election) | `#pwn` |
 | [SECCON (2017)](https://ctftime.org/event/512) | Sat, 09 Dec., 01:00  - Sun, 10 Dec., 01:00 EDT | [secure_keymanager](SECCON/2017/secure_keymanager) | `#pwn` |
