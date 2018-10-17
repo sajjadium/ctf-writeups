@@ -26,9 +26,9 @@
 | [SECCON (2017)](https://ctftime.org/event/512) | [election](SECCON/2017/election) | `#pwn` |
 | [SECCON (2017)](https://ctftime.org/event/512) | [secure_keymanager](SECCON/2017/secure_keymanager) | `#pwn` |
 | [SECCON (2017)](https://ctftime.org/event/512) | [video_player](SECCON/2017/video_player) | `#pwn` |
-| [StarCTF (2018)](https://ctftime.org/event/614/) | [babystack](StarCTF/2018/babystack) | `#pwn` |
-| [StarCTF (2018)](https://ctftime.org/event/614/) | [note](StarCTF/2018/note) | `#pwn` |
-| [StarCTF (2018)](https://ctftime.org/event/614/) | [warmup](StarCTF/2018/warmup) | `#pwn` |
+| [\*CTF (2018)](https://ctftime.org/event/614/) | [babystack](StarCTF/2018/babystack) | `#pwn` |
+| [\*CTF (2018)](https://ctftime.org/event/614/) | [note](StarCTF/2018/note) | `#pwn` |
+| [\*CTF (2018)](https://ctftime.org/event/614/) | [warmup](StarCTF/2018/warmup) | `#pwn` |
 | [TAMUCTF (2018)](https://ctftime.org/event/559) | [pwn5](TAMUCTF/2018/pwn5) | `#pwn` |
 | [UIUCTF (2018)](https://ctftime.org/event/587) | [how2heap](UIUCTF/2018/how2heap) | `#pwn` |
 | [WPICTF (2018)](https://ctftime.org/event/600) | [Forker.level1](WPICTF/2018/Forker.level1) | `#pwn` |
