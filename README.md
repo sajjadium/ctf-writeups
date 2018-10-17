@@ -35,8 +35,8 @@
 | [WPICTF (2018)](https://ctftime.org/event/600) | | [Forker.level2](WPICTF/2018/Forker.level2) | `#pwn` |
 | [WhiteHat Grand Prix Quals (2018)](https://ctftime.org/event/656) | | [pwn02](WhiteHatGrandPrixQuals/2018/pwn02) | `#pwn` |
 | [iCTF (2018)](https://ctftime.org/event/567) | | [fantasticiot](iCTF/2018/fantasticiot) | `#pwn` |
-| [pwnable.kr](http://pwnable.kr/) |[asm](pwnable.kr/asm) | `#pwn` |
-| [pwnable.kr](http://pwnable.kr/) |[bof](pwnable.kr/bof) | `#pwn` |
-| [pwnable.kr](http://pwnable.kr/) |[lotto](pwnable.kr/lotto) | `#pwn` |
-| [pwnable.tw](https://pwnable.tw/) |[orw](pwnable.tw/orw) | `#pwn` |
-| [pwnable.tw](https://pwnable.tw/) |[start](pwnable.tw/start) | `#pwn` |
+| [pwnable.kr](http://pwnable.kr/) | - | [asm](pwnable.kr/asm) | `#pwn` |
+| [pwnable.kr](http://pwnable.kr/) | - | [bof](pwnable.kr/bof) | `#pwn` |
+| [pwnable.kr](http://pwnable.kr/) | - | [lotto](pwnable.kr/lotto) | `#pwn` |
+| [pwnable.tw](https://pwnable.tw/) | - | [orw](pwnable.tw/orw) | `#pwn` |
+| [pwnable.tw](https://pwnable.tw/) | - | [start](pwnable.tw/start) | `#pwn` |
