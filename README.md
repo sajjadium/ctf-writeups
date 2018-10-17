@@ -1,6 +1,6 @@
 | Event | Date | Challenge | Tags |
 |-------|------|-----------|------|
-| [0CTF Final (2018)](https://ctftime.org/event/558) | | [freenote2018](0CTFFinal/2018/freenote2018) | `#pwn` |
+| [0CTF Final (2018)](https://ctftime.org/event/558) | Thu, 24 May 2018, 21:00 EDT — Sun, 27 May 2018, 05:00 EDT | [freenote2018](0CTFFinal/2018/freenote2018) | `#pwn` |
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | | [babyheap](0CTFQuals/2018/babyheap) | `#pwn` |
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | | [babystack](0CTFQuals/2018/babystack) | `#pwn` |
 | [34C3 (2017)](https://ctftime.org/event/544) | | [SimpleGC](34C3/2017/SimpleGC) | `#pwn` |
