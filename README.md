@@ -1,13 +1,13 @@
 | Event | Date | Challenge | Tags |
 |-------|------|-----------|------|
 | [0CTF Final (2018)](https://ctftime.org/event/558) | Thu, 24 May 2018, 21:00 EDT — Sun, 27 May 2018, 05:00 EDT | [freenote2018](0CTFFinal/2018/freenote2018) | `#pwn` |
-| [0CTF Quals (2018)](https://ctftime.org/event/557) | | [babyheap](0CTFQuals/2018/babyheap) | `#pwn` |
-| [0CTF Quals (2018)](https://ctftime.org/event/557) | | [babystack](0CTFQuals/2018/babystack) | `#pwn` |
-| [34C3 (2017)](https://ctftime.org/event/544) | | [SimpleGC](34C3/2017/SimpleGC) | `#pwn` |
-| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | | [Cat](AsisCTFQuals/2018/Cat) | `#pwn` |
-| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | | [Fifty Dollars](AsisCTFQuals/2018/Fifty_Dollars) | `#pwn` |
-| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | | [Just Sort](AsisCTFQuals/2018/Just_Sort) | `#pwn` |
-| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | | [Message Me](AsisCTFQuals/2018/Message_Me) | `#pwn` |
+| [0CTF Quals (2018)](https://ctftime.org/event/557) | Fri, 30 March 2018, 21:00 EDT — Sun, 01 April 2018, 21:00 EDT | [babyheap](0CTFQuals/2018/babyheap) | `#pwn` |
+| [0CTF Quals (2018)](https://ctftime.org/event/557) | Fri, 30 March 2018, 21:00 EDT — Sun, 01 April 2018, 21:00 EDT | [babystack](0CTFQuals/2018/babystack) | `#pwn` |
+| [34C3 (2017)](https://ctftime.org/event/544) | Wed, 27 Dec. 2017, 15:00 EST — Fri, 29 Dec. 2017, 15:00 EST | [SimpleGC](34C3/2017/SimpleGC) | `#pwn` |
+| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | Sat, 28 April 2018, 14:00 EDT — Mon, 30 April 2018, 14:00 EDT | [Cat](AsisCTFQuals/2018/Cat) | `#pwn` |
+| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | Sat, 28 April 2018, 14:00 EDT — Mon, 30 April 2018, 14:00 EDT | [Fifty Dollars](AsisCTFQuals/2018/Fifty_Dollars) | `#pwn` |
+| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | Sat, 28 April 2018, 14:00 EDT — Mon, 30 April 2018, 14:00 EDT | [Just Sort](AsisCTFQuals/2018/Just_Sort) | `#pwn` |
+| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | Sat, 28 April 2018, 14:00 EDT — Mon, 30 April 2018, 14:00 EDT | [Message Me](AsisCTFQuals/2018/Message_Me) | `#pwn` |
 | [CSAW Quals (2017)](https://ctftime.org/event/488) | | [SCV](CSAWQuals/2017/SCV) | `#pwn` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | | [alien_invasion](CSAWQuals/2018/alien_invasion) | `#pwn` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | | [bigboy](CSAWQuals/2018/bigboy) | `#pwn` |
