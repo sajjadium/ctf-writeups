@@ -1,5 +1,5 @@
-| Event        | Challenge | Info | Exploitation |
-|--------------|-----------|------|--------------|
+| Event                    | Challenge | Info | Exploitation |
+|--------------------------|-----------|------|--------------|
 | [InCTF (2018)](https://ctftime.org/event/662) | [YAWN](InCTF/2018/YAWN) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `off-by-one`, `heap exploitation`, `fastbin_dup`, `__malloc_hook`, `one gadget` |
 | [InCTF (2018)](https://ctftime.org/event/662) | [securepad](InCTF/2018/securepad) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `uninitialized variable`, `arbitrary free`, `unsorted_bin_attack`, `__free_hook`, `fastbin_dup_attack`, `heap exploitation` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | |
