@@ -33,7 +33,6 @@
 | [SECCON (2017)](https://ctftime.org/event/512) | Sat, 09 Dec., 01:00  - Sun, 10 Dec., 01:00 EDT | [election](SECCON/2017/election) | `#pwn` |
 | [SECCON (2017)](https://ctftime.org/event/512) | Sat, 09 Dec., 01:00  - Sun, 10 Dec., 01:00 EDT | [secure_keymanager](SECCON/2017/secure_keymanager) | `#pwn` |
 | [SECCON (2017)](https://ctftime.org/event/512) | Sat, 09 Dec., 01:00  - Sun, 10 Dec., 01:00 EDT | [video_player](SECCON/2017/video_player) | `#pwn` | [CSAW Quals (2017)](https://ctftime.org/event/488) | Fri, 15 Sept., 16:00  - Sun, 17 Sept., 16:00 EDT | [SCV](CSAWQuals/2017/SCV) | `#pwn` |
-|
 | [WhiteHat Grand Prix Quals (2018)](https://ctftime.org/event/656) | Fri, 17 Aug., 22:00  - Sat, 18 Aug., 22:00 EDT | [pwn02](WhiteHatGrandPrixQuals/2018/pwn02) | `#pwn` |
 | [pwnable.kr](http://pwnable.kr/) | - | [asm](pwnable.kr/asm) | `#pwn` |
 | [pwnable.kr](http://pwnable.kr/) | - | [bof](pwnable.kr/bof) | `#pwn` |
