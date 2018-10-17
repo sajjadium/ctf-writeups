@@ -8,8 +8,8 @@
 | [AsisCTF Quals (2018)](https://ctftime.org/event/568) | Sat, 28 April 2018, 14:00 EDT — Mon, 30 April 2018, 14:00 EDT | [Fifty Dollars](AsisCTFQuals/2018/Fifty_Dollars) | `#pwn` |
 | [AsisCTF Quals (2018)](https://ctftime.org/event/568) | Sat, 28 April 2018, 14:00 EDT — Mon, 30 April 2018, 14:00 EDT | [Just Sort](AsisCTFQuals/2018/Just_Sort) | `#pwn` |
 | [AsisCTF Quals (2018)](https://ctftime.org/event/568) | Sat, 28 April 2018, 14:00 EDT — Mon, 30 April 2018, 14:00 EDT | [Message Me](AsisCTFQuals/2018/Message_Me) | `#pwn` |
-| [CSAW Quals (2017)](https://ctftime.org/event/488) | Fri, 15 Sep., 16:00 — Sun, 17 Sep., 16:00 EDT | [SCV](CSAWQuals/2017/SCV) | `#pwn` |
-| [CSAW Quals (2018)](https://ctftime.org/event/633) | Fri, 14 Sep., 16:00 — Sun, 16 Sep., 16:00 EDT | [alien_invasion](CSAWQuals/2018/alien_invasion) | `#pwn` |
+| [CSAW Quals (2017)](https://ctftime.org/event/488) | Fri, 15 Sep., 16:00 EDT — Sun, 17 Sep., 16:00 EDT | [SCV](CSAWQuals/2017/SCV) | `#pwn` |
+| [CSAW Quals (2018)](https://ctftime.org/event/633) | Fri, 14 Sep., 16:00 EDT — Sun, 16 Sep., 16:00 EDT | [alien_invasion](CSAWQuals/2018/alien_invasion) | `#pwn` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | | [bigboy](CSAWQuals/2018/bigboy) | `#pwn` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | | [get_it](CSAWQuals/2018/get_it) | `#pwn` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | | [shell_code](CSAWQuals/2018/shell_code) | `#pwn` |
