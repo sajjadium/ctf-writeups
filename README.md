@@ -7,7 +7,7 @@
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | Fri, 14 Sept., 16:00  - Sun, 16 Sept., 16:00 EDT | [get_it](CSAWQuals/2018/get_it) | `#pwn` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | Fri, 14 Sept., 16:00  - Sun, 16 Sept., 16:00 EDT | [shell_code](CSAWQuals/2018/shell_code) | `#pwn` |
 | [WhiteHat Grand Prix Quals (2018)](https://ctftime.org/event/656) | Fri, 17 Aug., 22:00  - Sat, 18 Aug., 22:00 EDT | [pwn02](WhiteHatGrandPrixQuals/2018/pwn02) | `#pwn` |
-| [MeePwn Quals (2018)](https://ctftime.org/event/625) | Fri, 13 July, 15:00  - Sun, 15 July, 15:00 EDT | [BabySandbox](MeePwnQuals/2018/BabySandbox) |
+| [MeePwn Quals (2018)](https://ctftime.org/event/625) | Fri, 13 July, 15:00  - Sun, 15 July, 15:00 EDT | [BabySandbox](MeePwnQuals/2018/BabySandbox) | `#pwn` |
 | [0CTF Final (2018)](https://ctftime.org/event/558) | Thu, 24 May, 21:00  - Sun, 27 May, 05:00 EDT | [freenote2018](0CTFFinal/2018/freenote2018) | `#pwn` |
 | [RCTF (2018)](https://ctftime.org/event/624) | Sat, 19 May, 05:00  - Mon, 21 May, 04:59 EDT | [RNote3](RCTF/2018/RNote3) | `#pwn` |
 | [RCTF (2018)](https://ctftime.org/event/624) | Sat, 19 May, 05:00  - Mon, 21 May, 04:59 EDT | [babyheap](RCTF/2018/babyheap) | `#pwn` |
