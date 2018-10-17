@@ -1,6 +1,6 @@
 | CTF           | Year | Challenge                                        | Tags   |
 |---------------|------|--------------------------------------------------|--------|
-| 0CTF Final    | 2018 | [freenote2018](0CTFFinal/2018/freenote2018)      | `#pwn` |
+| 0CTF Final    | 2018 | [freenote2018](0CTFFinal/2018/freenote2018){:target="_blank"}     | `#pwn` |
 | 0CTF Quals    | 2018 | [babyheap](0CTFQuals/2018/babyheap)              | `#pwn` |
 | 0CTF Quals    | 2018 | [babystack](0CTFQuals/2018/babystack)            | `#pwn` |
 | 34C3          | 2017 | [SimpleGC](34C3/2017/SimpleGC)                   | `#pwn` |
