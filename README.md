@@ -2,7 +2,7 @@
 |--------------------------|-----------|------|--------------|
 | [InCTF (2018)](https://ctftime.org/event/662) | [YAWN](InCTF/2018/YAWN) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `off-by-one`, `heap exploitation`, `fastbin_dup`, `__malloc_hook`, `one gadget` |
 | [InCTF (2018)](https://ctftime.org/event/662) | [securepad](InCTF/2018/securepad) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `uninitialized variable`, `arbitrary free`, `unsorted_bin_attack`, `__free_hook`, `fastbin_dup_attack`, `heap exploitation` |
-| [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | |
+| [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO`, `PIE` | `off-by-one`, `poison-null-byte`, `overlapping chunks`, `heap exploitation` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [bigboy](CSAWQuals/2018/bigboy) | |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [get_it](CSAWQuals/2018/get_it) | |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [shell_code](CSAWQuals/2018/shell_code) | |
