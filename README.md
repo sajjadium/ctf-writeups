@@ -35,8 +35,8 @@
 | WPICTF    | 2018 | [Forker.level2](WPICTF/2018/Forker.level2)                  | `#pwn` |
 | WhiteHatGrandPrixQuals    | 2018 | [pwn02](WhiteHatGrandPrixQuals/2018/pwn02)                  | `#pwn` |
 | iCTF    | 2018 | [fantasticiot](iCTF/2018/fantasticiot)                  | `#pwn` |
-| pwnable.kr    | - | [asm]()                  | `#pwn` |
-| pwnable.kr    | - | [bof]()                  | `#pwn` |
-| pwnable.kr    | - | [lotto]()                  | `#pwn` |
-| pwnable.tw    | - | [orw]()                  | `#pwn` |
-| pwnable.tw    | - | [start]()                  | `#pwn` |
+| pwnable.kr    | - | [asm](pwnable.kr/asm)                  | `#pwn` |
+| pwnable.kr    | - | [bof](pwnable.kr/bof)                  | `#pwn` |
+| pwnable.kr    | - | [lotto](pwnable.kr/lotto)                  | `#pwn` |
+| pwnable.tw    | - | [orw](pwnable.tw/orw)                  | `#pwn` |
+| pwnable.tw    | - | [start](pwnable.tw/start)                  | `#pwn` |
