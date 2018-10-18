@@ -1,3 +1,3 @@
 In `WhiteHat Grand Prix 2018 Quals - pwn02 (BookStore)` challenge, there is a `null byte poisoning` aka `off-by-one overflow` aka `null byte overflow` vulnerability. Using this vulnerability, we can create the `overlapping chunks` situation (by zeroing out PREV_INUSE bit), which enables us to leak libc addresses and overwrite a sensitive function pointer with `system` address (spawn `/bin/sh`).
 
-This is a good example of `Heap Exploitation` challenge to understand how to exploit `x64_86` binaries with `Canary`, `Full RELRO`, `FORTIFY`, `NX`, and `ASLR` enabled in presence of `tcache` in `glibc-2.27`.
+This is a good example of `Heap Exploitation` challenge to understand how to exploit `x86_64` binaries with `Canary`, `Full RELRO`, `FORTIFY`, `NX`, and `ASLR` enabled in presence of `tcache` in `glibc-2.27`.
