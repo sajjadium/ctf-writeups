@@ -1,8 +1,8 @@
 | Event                    | Challenge | Info | Exploitation |
 |--------------------------|-----------|------|--------------|
-| [InCTF (2018)](https://ctftime.org/event/662) | [YAWN](InCTF/2018/YAWN) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `heap`, `off-by-one`, `fastbin dup`, `__malloc_hook`, `one gadget` |
+| [InCTF (2018)](https://ctftime.org/event/662) | [YAWN](InCTF/2018/YAWN) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `heap`, `off-by-one`, `fastbin dup`, `__malloc_hook`, `one gadget`, `GOT` |
 | [InCTF (2018)](https://ctftime.org/event/662) | [securepad](InCTF/2018/securepad) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `heap`, `uninitialized stack variable`, `arbitrary free`, `unsorted bin`, `fastbin dup`, `__free_hook` |
-| [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO`, `PIE` | `heap`, `off-by-one`, `poison-null-byte`, `overlapping chunks` |
+| [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO`, `PIE` | `heap`, `off-by-one`, `poison-null-byte`, `overlapping chunks`, `GOT` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [bigboy](CSAWQuals/2018/bigboy) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO` | `stack overflow` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [get_it](CSAWQuals/2018/get_it) | `x86_64`, `NX`, `ASLR`, `Partial RELRO` | `stack overflow` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [shell_code](CSAWQuals/2018/shell_code) | `x86_64`, `ASLR`, `Full RELRO`, `PIE` | `stack overflow`, `shell code` |
@@ -11,15 +11,15 @@
 | [0CTF Final (2018)](https://ctftime.org/event/558) | [freenote2018](0CTFFinal/2018/freenote2018) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `double free`, `overlapping chunks`, `heap metadata`, `__malloc_hook`, `fastbin dup` |
 | [RCTF (2018)](https://ctftime.org/event/624) | [RNote3](RCTF/2018/RNote3) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `uninitialized stack variable`, `heap`, `overlapping chunks`, `__free_hook` |
 | [RCTF (2018)](https://ctftime.org/event/624) | [babyheap](RCTF/2018/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `poison-null-byte`, `__malloc_hook`, `PREV_IN_USE bit` |
-| [RCTF (2018)](https://ctftime.org/event/624) | [stringer](RCTF/2018/stringer) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `IS_MMAPED bit`, `calloc`, `double free`, `fastbin dup`, `__malloc_hook`
-| [PlaidCTF (2018)](https://ctftime.org/event/617) | [shop](PlaidCTF/2018/shop) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `heap`, `buffer overflow`, `one gadget` |
-| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Cat](AsisCTFQuals/2018/Cat) | |
-| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Fifty Dollars](AsisCTFQuals/2018/Fifty_Dollars) | |
-| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Just Sort](AsisCTFQuals/2018/Just_Sort) | |
-| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Message Me](AsisCTFQuals/2018/Message_Me) | |
-| [\*CTF (2018)](https://ctftime.org/event/614/) | [babystack](StarCTF/2018/babystack) | |
-| [\*CTF (2018)](https://ctftime.org/event/614/) | [note](StarCTF/2018/note) | |
-| [\*CTF (2018)](https://ctftime.org/event/614/) | [warmup](StarCTF/2018/warmup) | |
+| [RCTF (2018)](https://ctftime.org/event/624) | [stringer](RCTF/2018/stringer) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `IS_MMAPED bit`, `calloc`, `double free`, `fastbin dup`, `__malloc_hook` |
+| [PlaidCTF (2018)](https://ctftime.org/event/617) | [shop](PlaidCTF/2018/shop) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `heap`, `buffer overflow`, `one gadget`, `GOT` |
+| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Cat](AsisCTFQuals/2018/Cat) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `heap`, `fastbin`, `GOT` |
+| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Fifty Dollars](AsisCTFQuals/2018/Fifty_Dollars) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `use after free (UAF)`, `double free`, `fastbin` |
+| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Just Sort](AsisCTFQuals/2018/Just_Sort) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `heap overflow`, `GOT`, `one gadget` |
+| [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Message Me](AsisCTFQuals/2018/Message_Me) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `heap`, `use after free (UAF)`, `double free`, `fastbins`, `__malloc_hook`, `overlapping chunks` |
+| [\*CTF (2018)](https://ctftime.org/event/614/) | [babystack](StarCTF/2018/babystack) | `x86_64`, `NX`, `Canary`, `Full RELRO`, `ASLR` | `stack overflow`, `GOT`, `pthread`, `Thread Local Storage (TLS)`, `stack_guard` |
+| [\*CTF (2018)](https://ctftime.org/event/614/) | [note](StarCTF/2018/note) | `x86_64`, `NX`, `Full RELRO`, `ASLR` | `stack overflow`, `off-by-one`, `return oriented programming (ROP)`, `least significant byte (LSB)`, `saved rbp`, `GOT` |
+| [\*CTF (2018)](https://ctftime.org/event/614/) | [warmup](StarCTF/2018/warmup) | `x86_64`, `NX`, `Full RELRO`, `ASLR` | `stack overflow`, `one gadget`, `GOT` |
 | [WPICTF (2018)](https://ctftime.org/event/600) | [Forker.level1](WPICTF/2018/Forker.level1) | |
 | [WPICTF (2018)](https://ctftime.org/event/600) | [Forker.level2](WPICTF/2018/Forker.level2) | |
 | [UIUCTF (2018)](https://ctftime.org/event/587) | [how2heap](UIUCTF/2018/how2heap) | |
