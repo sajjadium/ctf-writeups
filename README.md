@@ -1,11 +1,11 @@
 | Event                    | Challenge | Info | Exploitation |
 |--------------------------|-----------|------|--------------|
-| [InCTF (2018)](https://ctftime.org/event/662) | [YAWN](InCTF/2018/YAWN) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `off-by-one`, `heap exploitation`, `fastbin_dup`, `__malloc_hook`, `one gadget` |
-| [InCTF (2018)](https://ctftime.org/event/662) | [securepad](InCTF/2018/securepad) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `uninitialized variable`, `arbitrary free`, `unsorted_bin_attack`, `__free_hook`, `fastbin_dup_attack`, `heap exploitation` |
-| [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO`, `PIE` | `off-by-one`, `poison-null-byte`, `overlapping chunks`, `heap exploitation` |
-| [CSAW Quals (2018)](https://ctftime.org/event/633) | [bigboy](CSAWQuals/2018/bigboy) | |
-| [CSAW Quals (2018)](https://ctftime.org/event/633) | [get_it](CSAWQuals/2018/get_it) | |
-| [CSAW Quals (2018)](https://ctftime.org/event/633) | [shell_code](CSAWQuals/2018/shell_code) | |
+| [InCTF (2018)](https://ctftime.org/event/662) | [YAWN](InCTF/2018/YAWN) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `heap`, `off-by-one`, `fastbin dup`, `__malloc_hook`, `one gadget` |
+| [InCTF (2018)](https://ctftime.org/event/662) | [securepad](InCTF/2018/securepad) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `heap`, `uninitialized stack variable`, `arbitrary free`, `unsorted bin`, `fastbin dup`, `__free_hook` |
+| [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO`, `PIE` | `heap`, `off-by-one`, `poison-null-byte`, `overlapping chunks` |
+| [CSAW Quals (2018)](https://ctftime.org/event/633) | [bigboy](CSAWQuals/2018/bigboy) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO` | `stack overflow` |
+| [CSAW Quals (2018)](https://ctftime.org/event/633) | [get_it](CSAWQuals/2018/get_it) | `x86_64`, `NX`, `ASLR`, `Partial RELRO` | `stack overflow` |
+| [CSAW Quals (2018)](https://ctftime.org/event/633) | [shell_code](CSAWQuals/2018/shell_code) | `x86_64`, `ASLR`, `Full RELRO`, `PIE` | `stack overflow`, `shell code` |
 | [WhiteHat Grand Prix Quals (2018)](https://ctftime.org/event/656) | [pwn02](WhiteHatGrandPrixQuals/2018/pwn02) | |
 | [MeePwn Quals (2018)](https://ctftime.org/event/625) | [BabySandbox](MeePwnQuals/2018/BabySandbox) | |
 | [0CTF Final (2018)](https://ctftime.org/event/558) | [freenote2018](0CTFFinal/2018/freenote2018) | |
