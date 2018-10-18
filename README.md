@@ -38,5 +38,5 @@
 | [pwnable.kr](http://pwnable.kr/) | [asm](pwnable.kr/asm) | `x86_64`, `PIE`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `shell code`, `syscall` |
 | [pwnable.kr](http://pwnable.kr/) | [bof](pwnable.kr/bof) | `x86_32`, `PIE`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow` |
 | [pwnable.kr](http://pwnable.kr/) | [lotto](pwnable.kr/lotto) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `random generator` |
-| [pwnable.tw](https://pwnable.tw/) | [orw](pwnable.tw/orw) | |
-| [pwnable.tw](https://pwnable.tw/) | [start](pwnable.tw/start) | |
+| [pwnable.tw](https://pwnable.tw/) | [orw](pwnable.tw/orw) | `x86_32`, `Canary`, `Partial RELRO` | `shell code`, `syscall` |
+| [pwnable.tw](https://pwnable.tw/) | [start](pwnable.tw/start) | `x86_32` | `stack overflow`, `shell code` |
