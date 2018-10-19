@@ -1,5 +1,6 @@
 | Event                    | Challenge | Info | Exploitation |
 |--------------------------|-----------|------|--------------|
+| [Hack.lu (2018)](https://ctftime.org/event/699) | [BabyPHP](Hack.lu/2018/BabyPHP) | `Web`, `PHP` | `unsanitized user input`, `unintended behaviors`, `code injection`, `assert` |
 | [InCTF (2018)](https://ctftime.org/event/662) | [YAWN](InCTF/2018/YAWN) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `heap`, `off-by-one`, `fastbin dup`, `__malloc_hook`, `one gadget`, `GOT` |
 | [InCTF (2018)](https://ctftime.org/event/662) | [securepad](InCTF/2018/securepad) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `heap`, `uninitialized stack variable`, `arbitrary free`, `unsorted bin`, `fastbin dup`, `__free_hook` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO`, `PIE` | `heap`, `off-by-one`, `poison-null-byte`, `overlapping chunks`, `GOT` |
