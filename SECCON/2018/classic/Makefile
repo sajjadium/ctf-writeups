@@ -1,5 +1,6 @@
 all: clean
-	gcc program.c -fno-stack-protector -o program.bin
+	gcc program.c -fno-stack-protector -o program_recompiled
 
 clean:
-	rm -f program.bin
+	rm -f program_recompiled
+
