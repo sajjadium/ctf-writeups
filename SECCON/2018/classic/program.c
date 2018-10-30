@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdint.h>
 
 int main()
 {
@@ -7,7 +6,7 @@ int main()
 
   puts("Classic Pwnable Challenge");
   printf("Local Buffer >> ");
-  gets((int64_t)v4);
+  gets(v4);
   puts("Have a nice pwn!!");
   return 0;
 }
