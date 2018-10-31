@@ -2,7 +2,7 @@
 |--------------------------|-----------|------|--------------|
 | [SECCON (2018)](https://ctftime.org/event/683) | [classic](SECCON/2018/classic) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO` | `stack overflow`, `return oriented programming (ROP)`, `GOT`, `stack pivoting`, `one gadget` |
 | [BSides Delhi (2018)](https://ctftime.org/event/700) | [data_bank](BSidesDelhi/2018/data_bank) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `heap`, `tcache`, `use after free (UAF)`, `tcache poisoning`, `__malloc_hook`, `one gadget` |
-| [HITCON (2018)](https://ctftime.org/event/669) | [Children Tcache](HITCON/2018/children_tcache) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `heap`, `tcache`, `off-by-one`, `poison-null-byte`, `double free`, `overlapping chunks`, `tcache dup`, `tcache poisoning`, `__malloc_hook` |
+| [HITCON (2018)](https://ctftime.org/event/669) | [children_tcache](HITCON/2018/children_tcache) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `heap`, `tcache`, `off-by-one`, `poison-null-byte`, `double free`, `overlapping chunks`, `tcache dup`, `tcache poisoning`, `__malloc_hook` |
 | [Hack.lu (2018)](https://ctftime.org/event/699) | [BabyPHP](Hack.lu/2018/BabyPHP) | `Web`, `PHP` | `unsanitized user input`, `unintended behaviors`, `code injection`, `assert` |
 | [InCTF (2018)](https://ctftime.org/event/662) | [YAWN](InCTF/2018/YAWN) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `heap`, `off-by-one`, `fastbin dup`, `__malloc_hook`, `one gadget`, `GOT` |
 | [InCTF (2018)](https://ctftime.org/event/662) | [securepad](InCTF/2018/securepad) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `heap`, `uninitialized stack variable`, `arbitrary free`, `unsorted bin`, `fastbin dup`, `__free_hook` |

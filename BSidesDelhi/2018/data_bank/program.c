@@ -2,14 +2,16 @@
 #include <stdint.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <signal.h>
+#include <string.h>
 
 int count = 5;
 unsigned int size[8];
-char *table[7];
+char* table[7];
 
 int64_t get_inp(void *a1, int a2)
 {
-    int v3;
+    int v3; // [rsp+1Ch] [rbp-4h]
 
     v3 = read(0, a1, a2);
     if ( v3 == -1 )
@@ -21,9 +23,9 @@ int64_t get_inp(void *a1, int a2)
 
 int get_int()
 {
-    char nptr[0x30];
+    char nptr[0x20]; // [rsp+0h] [rbp-30h]
 
-    get_inp(&nptr, 0x20);
+    get_inp(nptr, 0x20);
     return atoi(nptr);
 }
 
@@ -36,8 +38,8 @@ int printmenu()
 
 int add()
 {
-    int result;
-    int index;
+    int result; // eax
+    signed int index; // [rsp+Ch] [rbp-4h]
 
     puts("Enter the index:");
     result = get_int();
@@ -63,8 +65,8 @@ int add()
 
 int edit()
 {
-    int index;
-    int idx;
+    int index; // eax
+    int idx; // [rsp+8h] [rbp-8h]
 
     puts("Enter the index:");
     index = get_int();
@@ -89,9 +91,9 @@ int edit()
 
 int delete()
 {
-    int result;
-    int v1;
-    int index;
+    int result; // eax
+    int v1; // eax
+    signed int index; // [rsp+Ch] [rbp-4h]
 
     puts("Enter the index:");
     result = get_int();
@@ -113,7 +115,7 @@ int delete()
 
 int view()
 {
-    int result;
+    int result; // eax
 
     puts("Enter the index:");
     result = get_int();
@@ -158,4 +160,3 @@ int main()
         }
     }
 }
-
