@@ -7,7 +7,7 @@
 
 int count = 5;
 unsigned int size[8];
-char* table[7];
+char *table[7];
 
 int64_t get_inp(void *a1, int a2)
 {
