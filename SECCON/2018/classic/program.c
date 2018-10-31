@@ -1,13 +1,12 @@
 #include <stdio.h>
+#include <stdint.h>
 
 int main()
 {
-  char v4[0x40];
-
-  puts("Classic Pwnable Challenge");
-  printf("Local Buffer >> ");
-  gets(v4);
-  puts("Have a nice pwn!!");
-  return 0;
+    char buf[0x40];
+    puts("Classic Pwnable Challenge");
+    printf("Local Buffer >> ");
+    gets(buf);
+    puts("Have a nice pwn!!");
+    return 0;
 }
-
