@@ -127,22 +127,6 @@ int64_t getn(char *a1, unsigned int a2)
     return i;
 }
 
-int64_t __static_initialization_and_destruction_0(int a1, int a2)
-{
-    int64_t result; // rax
-
-    if ( a1 == 1 && a2 == 0xFFFF )
-    {
-        std::ios_base::Init::Init((std::ios_base::Init *)&std::__ioinit);
-    }
-    return result;
-}
-
-int64_t GLOBAL__sub_I__ZN7Profile10update_msgEv()
-{
-    return __static_initialization_and_destruction_0(1, 0xFFFF);
-}
-
 int64_t Profile::Profile(Profile *this, int64_t a2)
 {
     std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string((int64_t)this, a2);
