@@ -1,16 +1,3 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <signal.h>
-#include <string.h>
-
-typedef struct _note {
-  char name[80];
-  uint64_t size;
-  char *desc;
-} note;
-
 note *table[10];
 
 int get_inp(char *buffer, int size)
@@ -161,7 +148,7 @@ int main()
     puts("---------------------------");
     while ( 1 )
     {
-        switch ( printmenu() )
+        switch (printmenu())
         {
         case 1u:
             add_note();
@@ -184,4 +171,3 @@ int main()
         }
     }
 }
-

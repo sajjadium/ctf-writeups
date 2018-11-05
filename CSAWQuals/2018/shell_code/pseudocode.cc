@@ -1,15 +1,6 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <signal.h>
-#include <string.h>
-#include <sys/mman.h>
-#include <fcntl.h>
-
 int printNode(int64_t *a1)
 {
-    return printf("node.next: %p\nnode.buffer: %s\n", (void *)(*a1), (char *)(a1 + 1));
+    return printf("node.next: %p\nnode.buffer: %s\n", *a1, a1 + 1);
 }
 
 char *readline(char *a1, size_t a2)
@@ -33,16 +24,16 @@ int goodbye()
 
 int nononode()
 {
-    char v1[0x8]; // [rsp+0h] [rbp-40h]
-    char v2[0x10]; // [rsp+8h] [rbp-38h]
+    char v1; // [rsp+0h] [rbp-40h]
+    int64_t v2; // [rsp+8h] [rbp-38h]
     char *v3; // [rsp+20h] [rbp-20h]
-    char v4[0x10]; // [rsp+28h] [rbp-18h]
+    int64_t v4; // [rsp+28h] [rbp-18h]
 
-    v3 = v1;
+    v3 = &v1;
     puts("(15 bytes) Text for node 1:  ");
-    readline(v4, 15uLL);
+    readline((char *)&v4, 15uLL);
     puts("(15 bytes) Text for node 2: ");
-    readline(v2, 15uLL);
+    readline((char *)&v2, 15uLL);
     puts("node1: ");
     printNode(&v3);
     return goodbye();

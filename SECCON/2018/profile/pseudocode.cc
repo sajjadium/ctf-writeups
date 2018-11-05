@@ -1,14 +1,3 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <signal.h>
-#include <string.h>
-#include <sys/mman.h>
-#include <fcntl.h>
-#include <string>
-#include <iostream>
-
 int64_t Profile::update_msg(Profile *this)
 {
     int64_t v1; // rax

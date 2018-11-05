@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <signal.h>
-#include <string.h>
-
-char *heap_table[12];
+const char *heap_table[12];
 int64_t size_table[10];
 
 void handler()
@@ -25,13 +18,14 @@ unsigned int initialize()
 
 int64_t read_number()
 {
-    char nptr[0x10]; // [rsp+10h] [rbp-20h]
+    char nptr; // [rsp+10h] [rbp-20h]
+    uint64_t v2; // [rsp+28h] [rbp-8h]
 
-    __read_chk(0LL, nptr, 16LL, 17LL);
-    return atoll(nptr);
+    __read_chk(0LL, &nptr, 16LL, 17LL);
+    return atoll(&nptr);
 }
 
-int64_t read_string(char *a1, uint64_t a2)
+signed int64_t read_string(int64_t a1, unsigned int a2)
 {
     int64_t result; // rax
     int v3; // [rsp+1Ch] [rbp-4h]
@@ -42,12 +36,13 @@ int64_t read_string(char *a1, uint64_t a2)
         puts("read error");
         _exit(1);
     }
-    result = *(int8_t *)(v3 - 1 + a1);
+    result = *(unsigned __int8 *)(v3 - 1LL + a1);
     if ( (char)result == '\n' )
     {
-        *(char *)(v3 - 1 + a1) = 0;
+        result = v3 - 1LL + a1;
+        *(char *)result = 0;
     }
-    return 0;
+    return result;
 }
 
 int print_menu()
@@ -64,13 +59,13 @@ int print_menu()
 
 uint64_t new_heap()
 {
-    signed int i; // [rsp+Ch] [rbp-2034h]
+    int i; // [rsp+Ch] [rbp-2034h]
     char *dest; // [rsp+10h] [rbp-2030h]
     uint64_t size; // [rsp+18h] [rbp-2028h]
-    char buffer[0x2010]; // [rsp+20h] [rbp-2020h]
+    char buffer; // [rsp+20h] [rbp-2020h]
     uint64_t v5; // [rsp+2038h] [rbp-8h]
 
-    memset(buffer, 0, 0x2010);
+    memset(&buffer, 0, 0x2010uLL);
     for ( i = 0; ; ++i )
     {
         if ( i > 9 )
@@ -88,8 +83,8 @@ uint64_t new_heap()
     if ( !dest )
         exit(-1);
     printf("Data:");
-    read_string(buffer, size);
-    strcpy(dest, buffer);
+    read_string((int64_t)&buffer, size);
+    strcpy(dest, &buffer);
     heap_table[i] = dest;
     size_table[i] = size;
 }
@@ -105,8 +100,8 @@ int show_heap()
         exit(-3);
     chunk = heap_table[index];
     if ( chunk )
-        puts(heap_table[index]);
-    return 0;
+        LODWORD(chunk) = puts(heap_table[index]);
+    return (signed int)chunk;
 }
 
 int delete_heap()
@@ -127,7 +122,7 @@ int delete_heap()
     return puts(":)");
 }
 
-void main()
+void main(int64_t a1, char **a2, char **a3)
 {
     uint64_t v3; // rax
 

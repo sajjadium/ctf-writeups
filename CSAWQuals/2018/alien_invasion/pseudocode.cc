@@ -1,12 +1,3 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <signal.h>
-#include <string.h>
-#include <sys/mman.h>
-#include <fcntl.h>
-
 int64_t _malloc_hook;
 int64_t _free_hook;
 int64_t saved_malloc_hook;
@@ -278,6 +269,4 @@ int main()
     saved_free_hook = _free_hook;
     hatchery();
     invasion();
-    return 0;
 }
-

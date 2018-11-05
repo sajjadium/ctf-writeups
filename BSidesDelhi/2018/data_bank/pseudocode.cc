@@ -1,13 +1,6 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <signal.h>
-#include <string.h>
-
 int count = 5;
 unsigned int size[8];
-char *table[7];
+int64_t table[7];
 
 int64_t get_inp(void *a1, int a2)
 {
@@ -23,10 +16,11 @@ int64_t get_inp(void *a1, int a2)
 
 int get_int()
 {
-    char nptr[0x20]; // [rsp+0h] [rbp-30h]
+    char nptr; // [rsp+0h] [rbp-30h]
+    uint64_t v2; // [rsp+28h] [rbp-8h]
 
-    get_inp(nptr, 0x20);
-    return atoi(nptr);
+    get_inp(&nptr, 0x20);
+    return atoi(&nptr);
 }
 
 int printmenu()
@@ -39,7 +33,7 @@ int printmenu()
 int add()
 {
     int result; // eax
-    signed int index; // [rsp+Ch] [rbp-4h]
+    int index; // [rsp+Ch] [rbp-4h]
 
     puts("Enter the index:");
     result = get_int();
@@ -89,11 +83,11 @@ int edit()
     return index;
 }
 
-int delete()
+int delete_()
 {
     int result; // eax
     int v1; // eax
-    signed int index; // [rsp+Ch] [rbp-4h]
+    int index; // [rsp+Ch] [rbp-4h]
 
     puts("Enter the index:");
     result = get_int();
@@ -138,7 +132,8 @@ int main()
     puts("----------DATA BANK----------");
     while ( 1 )
     {
-        switch (printmenu())
+        printmenu();
+        switch ( (unsigned int)off_10F0 )
         {
         case 1u:
             add();
@@ -147,13 +142,14 @@ int main()
             edit();
             break;
         case 3u:
-            delete();
+            delete_();
             break;
         case 4u:
             view();
             break;
         case 5u:
             exit(0);
+            return;
         default:
             puts("Invalid");
             break;

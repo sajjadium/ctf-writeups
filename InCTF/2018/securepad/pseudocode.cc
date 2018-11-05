@@ -1,12 +1,3 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <signal.h>
-#include <string.h>
-#include <sys/mman.h>
-#include <fcntl.h>
-
 int64_t sizes;
 char password[32];
 int64_t table;
@@ -194,10 +185,11 @@ int main()
     init_password();
     while ( 1 )
     {
-        switch ( menu() )
+        switch (menu())
         {
         case 0u:
             exit(0);
+            return;
         case 1u:
             authenticate();
             add_data();
@@ -219,7 +211,4 @@ int main()
             break;
         }
     }
-
-    return 0;
 }
-
