@@ -16,7 +16,7 @@
 | [0CTF Final (2018)](https://ctftime.org/event/558) | [freenote2018](0CTFFinal/2018/freenote2018) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `double free`, `overlapping chunks`, `heap metadata`, `__malloc_hook`, `fastbin dup` |
 | [RCTF (2018)](https://ctftime.org/event/624) | [RNote3](RCTF/2018/RNote3) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `uninitialized stack variable`, `heap`, `overlapping chunks`, `one gadget`, `fastbin`, `__free_hook` |
 | [RCTF (2018)](https://ctftime.org/event/624) | [babyheap](RCTF/2018/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `poison-null-byte`, `__malloc_hook`, `PREV_IN_USE bit` |
-| [RCTF (2018)](https://ctftime.org/event/624) | [stringer](RCTF/2018/stringer) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `IS_MMAPED bit`, `calloc`, `double free`, `fastbin dup`, `__malloc_hook` |
+| [RCTF (2018)](https://ctftime.org/event/624) | [stringer](RCTF/2018/stringer) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `IS_MMAPED`, `calloc`, `double free`, `fastbin dup`, `__malloc_hook` |
 | [PlaidCTF (2018)](https://ctftime.org/event/617) | [shop](PlaidCTF/2018/shop) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `heap`, `buffer overflow`, `one gadget`, `GOT` |
 | [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Cat](AsisCTFQuals/2018/Cat) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `heap`, `fastbin`, `GOT` |
 | [AsisCTF Quals (2018)](https://ctftime.org/event/568) | [Fifty Dollars](AsisCTFQuals/2018/Fifty_Dollars) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `use after free (UAF)`, `double free`, `fastbin` |
