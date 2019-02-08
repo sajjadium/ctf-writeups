@@ -26,7 +26,7 @@
 | [\*CTF (2018)](https://ctftime.org/event/614/) | [note](StarCTF/2018/note) | `x86_64`, `NX`, `Full RELRO`, `ASLR` | `stack overflow`, `off-by-one`, `return oriented programming (ROP)`, `least significant byte (LSB)`, `saved rbp`, `GOT` |
 | [\*CTF (2018)](https://ctftime.org/event/614/) | [warmup](StarCTF/2018/warmup) | `x86_64`, `NX`, `Full RELRO`, `ASLR` | `stack overflow`, `one gadget`, `GOT` |
 | [WPICTF (2018)](https://ctftime.org/event/600) | [ForkerLevel1](WPICTF/2018/ForkerLevel1) | `x86_64`, `Partial RELRO`, `ASLR` | `stack overflow`, `return-to-csu`, `return oriented programming (ROP)`, `GOT`, `shell code` |
-| [WPICTF (2018)](https://ctftime.org/event/600) | [ForkerLevel2](WPICTF/2018/ForkerLevel2) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `stack overflow`, `fork`|
+| [WPICTF (2018)](https://ctftime.org/event/600) | [ForkerLevel2](WPICTF/2018/ForkerLevel2) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `stack overflow`, `stack canary`, `stack cookie`, `fork`, `socket` |
 | [UIUCTF (2018)](https://ctftime.org/event/587) | [how2heap](UIUCTF/2018/how2heap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `one gadget` |
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | [babyheap](0CTFQuals/2018/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `double free`, `fastbin dup`, `__malloc_hook`, `one gadget`, `top chunk` |
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | [babystack](0CTFQuals/2018/babystack) | `x86_32`, `Canary`, `Partial RELRO`, `ASLR` | `stack overflow`, `return oriented programming (ROP)`, `GOT`, `PLT` |
