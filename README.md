@@ -1,5 +1,5 @@
-| Event                    | Challenge | Info | Exploitation |
-|--------------------------|-----------|------|--------------|
+| CTF                      | Challenge | Protections | Exploitation |
+|--------------------------|-----------|-------------|--------------|
 | [SECCON (2018)](https://ctftime.org/event/683) | [profile](SECCON/2018/profile) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO` | `buffer overflow`, `C++`, `GOT`, `arbitrary read`, `string`, `one gadget` |
 | [SECCON (2018)](https://ctftime.org/event/683) | [classic](SECCON/2018/classic) | `x86_64`, `NX`, `ASLR`, `Partial RELRO` | `stack overflow`, `return oriented programming (ROP)`, `GOT`, `stack pivoting`, `one gadget` |
 | [BSides Delhi (2018)](https://ctftime.org/event/700) | [data_bank](BSidesDelhi/2018/data_bank) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `PIE` | `heap`, `tcache`, `use after free (UAF)`, `tcache poisoning`, `__malloc_hook`, `one gadget` |
