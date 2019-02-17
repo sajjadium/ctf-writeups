@@ -35,6 +35,7 @@
 | [NullconCTF (2018)](https://ctftime.org/event/566) | [pwn2-box](NullconCTF/2018/pwn2-box) | `x86_64`, `Partial RELRO`, `ASLR` | `shell code`, `return oriented programming (ROP)`, `one gadget`, `syscall` |
 | [CodegateCTF (2018)](https://ctftime.org/event/542) | [BaskinRobins31](CodegateCTF/2018/BaskinRobins31) | `x86_64`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `return oriented programming (ROP)`, `GOT`, `one gadget` |
 | [CodegateCTF (2018)](https://ctftime.org/event/542) | [SuperMarimo](CodegateCTF/2018/Super_Marimo) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `GOT`, `fastbin`, `one gadget` |
+| [0CTF Quals (2017)](https://ctftime.org/event/402) | [babyheap](0CTFQuals/2017/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap overflow`, `fastbin`, `smallbin`, `IS_MMAPED`, `calloc`, `fastbin dup`, `__malloc_hook`, `one gadget` |
 | [34C3 (2017)](https://ctftime.org/event/544) | [SimpleGC](34C3/2017/SimpleGC) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `use after free (UAF)`, `GOT`, `glibc tcache`, `fastbin` |
 | [SECCON (2017)](https://ctftime.org/event/512) | [election](SECCON/2017/election) | `x86_64`, `Canary`, `Full RELRO`, `NX`, `ASLR` | `buffer overflow`, `arbitrary write`, `GOT`, `__malloc_hook`, `one gadget`, `fastbin` |
 | [SECCON (2017)](https://ctftime.org/event/512) | [secure_keymanager](SECCON/2017/secure_keymanager) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `double free`, `format string`, `GOT`, `PLT`, `fastbin` |
