@@ -29,7 +29,7 @@
 | [WPICTF (2018)](https://ctftime.org/event/600) | [ForkerLevel2](WPICTF/2018/ForkerLevel2) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `stack overflow`, `stack canary`, `stack cookie`, `fork`, `socket` |
 | [UIUCTF (2018)](https://ctftime.org/event/587) | [how2heap](UIUCTF/2018/how2heap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `one gadget` |
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | [babyheap](0CTFQuals/2018/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `double free`, `fastbin dup`, `__malloc_hook`, `one gadget`, `top chunk` |
-| [0CTF Quals (2018)](https://ctftime.org/event/557) | [babystack](0CTFQuals/2018/babystack) | `x86_32`, `Canary`, `Partial RELRO`, `ASLR` | `stack overflow`, `return oriented programming (ROP)`, `GOT`, `PLT` |
+| [0CTF Quals (2018)](https://ctftime.org/event/557) | [babystack](0CTFQuals/2018/babystack) | `x86_32`, `Partial RELRO`, `ASLR`, `NX` | `stack overflow`, `return oriented programming (ROP)`, `Global Offset Table (GOT)`, `Procedure Linkage Table (PLT)`, `Elf_Rel`, `Elf_Sym`, `dynstr`, `dynsym`, `rel_plt` |
 | [iCTF (2018)](https://ctftime.org/event/567) | [fantasticiot](iCTF/2018/fantasticiot) | `x86_32`, `Canary`, `NX`, `ASLR` | `attack & defense`, `strncmp`, `binary patching` |
 | [TAMUCTF (2018)](https://ctftime.org/event/559) | [pwn5](TAMUCTF/2018/pwn5) | `x86_32`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `return oriented programming (ROP)` |
 | [NullconCTF (2018)](https://ctftime.org/event/566) | [pwn2-box](NullconCTF/2018/pwn2-box) | `x86_64`, `Partial RELRO`, `ASLR` | `shell code`, `return oriented programming (ROP)`, `one gadget`, `syscall` |
