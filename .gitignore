@@ -1,2 +1,6 @@
 *_recompiled
 core
+.gdb_history
+.*.swp
+peda-session*.txt
+
