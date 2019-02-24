@@ -31,7 +31,7 @@
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | [babyheap](0CTFQuals/2018/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `double free`, `fastbin dup`, `__malloc_hook`, `one gadget`, `top chunk` |
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | [babystack](0CTFQuals/2018/babystack) | `x86_32`, `Partial RELRO`, `ASLR`, `NX` | `stack overflow`, `return oriented programming (ROP)`, `Global Offset Table (GOT)`, `Procedure Linkage Table (PLT)`, `Elf_Rel`, `Elf_Sym`, `dynstr`, `dynsym`, `rel_plt` |
 | [iCTF (2018)](https://ctftime.org/event/567) | [fantasticiot](iCTF/2018/fantasticiot) | `x86_32`, `Canary`, `NX`, `ASLR` | `attack & defense`, `strncmp`, `binary patching` |
-| [TAMUCTF (2018)](https://ctftime.org/event/559) | [pwn5](TAMUCTF/2018/pwn5) | `x86_32`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `return oriented programming (ROP)` |
+| [TAMUCTF (2018)](https://ctftime.org/event/559) | [pwn5](TAMUCTF/2018/pwn5) | `x86_32`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `return oriented programming (ROP)`, `syscall` |
 | [NullconCTF (2018)](https://ctftime.org/event/566) | [pwn2-box](NullconCTF/2018/pwn2-box) | `x86_64`, `Partial RELRO`, `ASLR` | `shell code`, `return oriented programming (ROP)`, `one gadget`, `syscall` |
 | [CodegateCTF (2018)](https://ctftime.org/event/542) | [BaskinRobins31](CodegateCTF/2018/BaskinRobins31) | `x86_64`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `return oriented programming (ROP)`, `GOT`, `one gadget` |
 | [CodegateCTF (2018)](https://ctftime.org/event/542) | [SuperMarimo](CodegateCTF/2018/Super_Marimo) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `GOT`, `fastbin`, `one gadget` |
