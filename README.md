@@ -1,6 +1,6 @@
 | CTF                      | Challenge | Protections | Exploitation |
 |--------------------------|-----------|-------------|--------------|
-| [TAMUctf (2019)](https://ctftime.org/event/740) | [pwn5](TAMUctf/2019/pwn3) | `x86_32`, `Full RELRO`, `PIE`, `ASLR` | `stack overflow`, `shellcode`, `syscall` |
+| [TAMUctf (2019)](https://ctftime.org/event/740) | [pwn3](TAMUctf/2019/pwn3) | `x86_32`, `Full RELRO`, `PIE`, `ASLR` | `stack overflow`, `shellcode`, `syscall` |
 | [TAMUctf (2019)](https://ctftime.org/event/740) | [pwn5](TAMUctf/2019/pwn5) | `x86_32`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `return to libc (ret2libc)` |
 | [ASIS CTF Finals (2018)](https://ctftime.org/event/620) | [asvdb](AsisCTFFinal/2018/asvdb) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO` | `heap`, `tcache`, `use after free (UAF)`, `double free`, `unsorted bin`, `smallbin`, `tcache dup`, `tcache poisoning`, `__free_hook`, `one gadget` |
 | [SECCON (2018)](https://ctftime.org/event/683) | [profile](SECCON/2018/profile) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO` | `buffer overflow`, `C++`, `GOT`, `arbitrary read`, `string`, `one gadget` |
