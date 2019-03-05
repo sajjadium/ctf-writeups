@@ -1,1 +1,1 @@
-This is an interesting challenge to learn how to leak `read@GOT`, find `glibc` base address, and execute `execve` found by `One Gadget`. Based on libc-database (https://github.com/niklasb/libc-database), glibc version is: `ubuntu-xenial-amd64-libc6 (id libc6_2.23-0ubuntu10_amd64)`.
+There is a `stack overflow` vulnerability in this challenge, by which you can leak `read@GOT`, find `glibc` base address, and jump to `execve` found by `one gadget` using `return oriented programming (ROP)` technique.
