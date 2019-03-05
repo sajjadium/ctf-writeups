@@ -13,9 +13,9 @@
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [alien_invasion](CSAWQuals/2018/alien_invasion) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO`, `PIE` | `heap`, `off-by-one`, `poison-null-byte`, `overlapping chunks`, `GOT` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [bigboy](CSAWQuals/2018/bigboy) | `x86_64`, `NX`, `Canary`, `ASLR`, `Partial RELRO` | `stack overflow` |
 | [CSAW Quals (2018)](https://ctftime.org/event/633) | [get_it](CSAWQuals/2018/get_it) | `x86_64`, `NX`, `ASLR`, `Partial RELRO` | `stack overflow` |
-| [CSAW Quals (2018)](https://ctftime.org/event/633) | [shell_code](CSAWQuals/2018/shell_code) | `x86_64`, `ASLR`, `Full RELRO`, `PIE` | `stack overflow`, `shell code` |
+| [CSAW Quals (2018)](https://ctftime.org/event/633) | [shell_code](CSAWQuals/2018/shell_code) | `x86_64`, `ASLR`, `Full RELRO`, `PIE` | `stack overflow`, `shellcode` |
 | [WhiteHat Grand Prix Quals (2018)](https://ctftime.org/event/656) | [pwn02](WhiteHatGrandPrixQuals/2018/pwn02) | `x86_64`, `NX`, `Canary`, `ASLR`, `Full RELRO`, `FORTIFY` | `heap`, `off-by-one`, `poison-null-byte`, `overlapping chunks`, `glibc tcache` |
-| [MeePwn Quals (2018)](https://ctftime.org/event/625) | [BabySandbox](MeePwnQuals/2018/BabySandbox) | `x86_32`, `Partial RELRO`, `ASLR`, `NX`, `PIE` | `shell code`, `syscall`, `openat`, `readv`, `writev`, `socket` |
+| [MeePwn Quals (2018)](https://ctftime.org/event/625) | [BabySandbox](MeePwnQuals/2018/BabySandbox) | `x86_32`, `Partial RELRO`, `ASLR`, `NX`, `PIE` | `shellcode`, `syscall`, `openat`, `readv`, `writev`, `socket` |
 | [0CTF Final (2018)](https://ctftime.org/event/558) | [freenote2018](0CTFFinal/2018/freenote2018) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `double free`, `overlapping chunks`, `heap metadata`, `__malloc_hook`, `fastbin dup` |
 | [RCTF (2018)](https://ctftime.org/event/624) | [RNote3](RCTF/2018/RNote3) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `uninitialized stack variable`, `heap`, `overlapping chunks`, `one gadget`, `fastbin`, `__free_hook` |
 | [RCTF (2018)](https://ctftime.org/event/624) | [babyheap](RCTF/2018/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `poison-null-byte`, `__malloc_hook`, `PREV_IN_USE bit` |
@@ -28,14 +28,14 @@
 | [\*CTF (2018)](https://ctftime.org/event/614/) | [babystack](StarCTF/2018/babystack) | `x86_64`, `NX`, `Canary`, `Full RELRO`, `ASLR` | `stack overflow`, `GOT`, `pthread`, `Thread Local Storage (TLS)`, `stack_guard` |
 | [\*CTF (2018)](https://ctftime.org/event/614/) | [note](StarCTF/2018/note) | `x86_64`, `NX`, `Full RELRO`, `ASLR` | `stack overflow`, `off-by-one`, `return oriented programming (ROP)`, `least significant byte (LSB)`, `saved rbp`, `GOT` |
 | [\*CTF (2018)](https://ctftime.org/event/614/) | [warmup](StarCTF/2018/warmup) | `x86_64`, `NX`, `Full RELRO`, `ASLR` | `stack overflow`, `one gadget`, `GOT` |
-| [WPICTF (2018)](https://ctftime.org/event/600) | [ForkerLevel1](WPICTF/2018/ForkerLevel1) | `x86_64`, `Partial RELRO`, `ASLR` | `stack overflow`, `return-to-csu`, `return oriented programming (ROP)`, `GOT`, `shell code` |
+| [WPICTF (2018)](https://ctftime.org/event/600) | [ForkerLevel1](WPICTF/2018/ForkerLevel1) | `x86_64`, `Partial RELRO`, `ASLR` | `stack overflow`, `return-to-csu`, `return oriented programming (ROP)`, `GOT`, `shellcode` |
 | [WPICTF (2018)](https://ctftime.org/event/600) | [ForkerLevel2](WPICTF/2018/ForkerLevel2) | `x86_64`, `NX`, `Canary`, `Partial RELRO`, `ASLR` | `stack overflow`, `stack canary`, `stack cookie`, `fork`, `socket` |
 | [UIUCTF (2018)](https://ctftime.org/event/587) | [how2heap](UIUCTF/2018/how2heap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `one gadget` |
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | [babyheap](0CTFQuals/2018/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap`, `off-by-one`, `double free`, `fastbin dup`, `__malloc_hook`, `one gadget`, `top chunk` |
 | [0CTF Quals (2018)](https://ctftime.org/event/557) | [babystack](0CTFQuals/2018/babystack) | `x86_32`, `Partial RELRO`, `ASLR`, `NX` | `stack overflow`, `return oriented programming (ROP)`, `Global Offset Table (GOT)`, `Procedure Linkage Table (PLT)`, `Elf_Rel`, `Elf_Sym`, `dynstr`, `dynsym`, `rel_plt` |
 | [iCTF (2018)](https://ctftime.org/event/567) | [fantasticiot](iCTF/2018/fantasticiot) | `x86_32`, `Canary`, `NX`, `ASLR` | `attack & defense`, `strncmp`, `binary patching` |
 | [TAMUctf (2018)](https://ctftime.org/event/559) | [pwn5](TAMUctf/2018/pwn5) | `x86_32`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `return oriented programming (ROP)`, `syscall` |
-| [NullconCTF (2018)](https://ctftime.org/event/566) | [pwn2-box](NullconCTF/2018/pwn2-box) | `x86_64`, `Partial RELRO`, `ASLR` | `shell code`, `return oriented programming (ROP)`, `one gadget`, `syscall` |
+| [NullconCTF (2018)](https://ctftime.org/event/566) | [pwn2-box](NullconCTF/2018/pwn2-box) | `x86_64`, `Partial RELRO`, `ASLR` | `shellcode`, `return oriented programming (ROP)`, `one gadget`, `syscall` |
 | [CodegateCTF (2018)](https://ctftime.org/event/542) | [BaskinRobins31](CodegateCTF/2018/BaskinRobins31) | `x86_64`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `return oriented programming (ROP)`, `GOT`, `one gadget` |
 | [CodegateCTF (2018)](https://ctftime.org/event/542) | [SuperMarimo](CodegateCTF/2018/Super_Marimo) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `GOT`, `fastbin`, `one gadget` |
 | [0CTF Quals (2017)](https://ctftime.org/event/402) | [babyheap](0CTFQuals/2017/babyheap) | `x86_64`, `NX`, `Canary`, `PIE`, `Full RELRO`, `ASLR` | `heap overflow`, `fastbin`, `smallbin`, `IS_MMAPED`, `calloc`, `fastbin attack`, `__malloc_hook`, `one gadget` |
@@ -44,8 +44,8 @@
 | [SECCON (2017)](https://ctftime.org/event/512) | [secure_keymanager](SECCON/2017/secure_keymanager) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `double free`, `format string`, `GOT`, `PLT`, `fastbin` |
 | [SECCON (2017)](https://ctftime.org/event/512) | [video_player](SECCON/2017/video_player) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `use after free (UAF)`, `GOT`, `one gadget`, `__malloc_hook`, `vtable`, `virtual calls`, `overlapping chunks`, `fastbin` |
 | [CSAW Quals (2017)](https://ctftime.org/event/488) | [SCV](CSAWQuals/2017/SCV) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `buffer overflow`, `information disclosure`, `buffer over-read`, `return oriented programming (ROP)`, `one gadget` |
-| [pwnable.kr](http://pwnable.kr/) | [asm](pwnable.kr/asm) | `x86_64`, `PIE`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `shell code`, `syscall` |
+| [pwnable.kr](http://pwnable.kr/) | [asm](pwnable.kr/asm) | `x86_64`, `PIE`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `shellcode`, `syscall` |
 | [pwnable.kr](http://pwnable.kr/) | [bof](pwnable.kr/bof) | `x86_32`, `PIE`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow` |
 | [pwnable.kr](http://pwnable.kr/) | [lotto](pwnable.kr/lotto) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `random generator` |
-| [pwnable.tw](https://pwnable.tw/) | [orw](pwnable.tw/orw) | `x86_32`, `Canary`, `Partial RELRO` | `shell code`, `syscall` |
-| [pwnable.tw](https://pwnable.tw/) | [start](pwnable.tw/start) | `x86_32` | `stack overflow`, `shell code` |
+| [pwnable.tw](https://pwnable.tw/) | [orw](pwnable.tw/orw) | `x86_32`, `Canary`, `Partial RELRO` | `shellcode`, `syscall` |
+| [pwnable.tw](https://pwnable.tw/) | [start](pwnable.tw/start) | `x86_32` | `stack overflow`, `shellcode` |
