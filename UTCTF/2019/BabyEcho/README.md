@@ -1,0 +1,1 @@
+There is a `format string` vulnerability that allows you to leak libc addresses and overwrite `GOT` entry in order to execute `/bin/sh`. Using `libc database` is required: https://github.com/niklasb/libc-database
