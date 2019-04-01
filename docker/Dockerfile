@@ -1,4 +1,4 @@
-FROM ARCHITECTURE/ubuntu:UBUNTU_VERSION
+FROM ARCHITECTURE/ubuntu:UBUNTU_RELEASE
 
 COPY qemu-arm-static /usr/bin/
 COPY qemu-aarch64-static /usr/bin/
@@ -29,5 +29,5 @@ RUN export LINES=`tput lines`
 ENV COLUMNS $COLUMNS
 ENV LINES $LINES
 
-WORKDIR /program
+WORKDIR /ctf
 
