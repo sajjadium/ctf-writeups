@@ -1,3 +1,5 @@
+Please refer to [docker](docker) page in order to prepare the docker containers.
+
 | CTF                      | Challenge | Info | Exploitation |
 |--------------------------|-----------|-------------|--------------|
 | [UTCTF (2019)](https://ctftime.org/event/757) | [BabyEcho](UTCTF/2019/BabyEcho) | `x86_32`, `Partial RELRO`, `ASLR`, `NX` | `format string`, `global offset table (GOT)`, `libc database` |
