@@ -53,8 +53,3 @@ In order to run the challenge POCs without any problem, I prepared docker contai
 | [SECCON (2017)](https://ctftime.org/event/512) | [secure_keymanager](SECCON/2017/secure_keymanager) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `double free`, `format string`, `global offset table (GOT)`, `PLT`, `fastbin` |
 | [SECCON (2017)](https://ctftime.org/event/512) | [video_player](SECCON/2017/video_player) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `heap`, `use after free (UAF)`, `global offset table (GOT)`, `one gadget`, `__malloc_hook`, `vtable`, `virtual calls`, `overlapping chunks`, `fastbin` |
 | [CSAW Quals (2017)](https://ctftime.org/event/488) | [SCV](CSAWQuals/2017/SCV) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `buffer overflow`, `information disclosure`, `buffer over-read`, `return oriented programming (ROP)`, `one gadget` |
-| [pwnable.kr](http://pwnable.kr/) | [asm](pwnable.kr/asm) | `x86_64`, `PIE`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow`, `shellcode`, `syscall` |
-| [pwnable.kr](http://pwnable.kr/) | [bof](pwnable.kr/bof) | `x86_32`, `PIE`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `stack overflow` |
-| [pwnable.kr](http://pwnable.kr/) | [lotto](pwnable.kr/lotto) | `x86_64`, `Canary`, `Partial RELRO`, `NX`, `ASLR` | `random generator` |
-| [pwnable.tw](https://pwnable.tw/) | [orw](pwnable.tw/orw) | `x86_32`, `Canary`, `Partial RELRO` | `shellcode`, `syscall` |
-| [pwnable.tw](https://pwnable.tw/) | [start](pwnable.tw/start) | `x86_32` | `stack overflow`, `shellcode` |
