@@ -1,19 +1,16 @@
-FROM ARCHITECTURE/ubuntu:UBUNTU_RELEASE
+FROM ubuntu:UBUNTU_RELEASE
 
-COPY qemu-arm-static /usr/bin/
-COPY qemu-aarch64-static /usr/bin/
-
-RUN apt-get update -y; exit 0;
+RUN apt-get update --fix-missing -y; exit 0;
 RUN apt-get install -y apt-utils; exit 0;
 RUN apt-get upgrade -y; exit 0;
 
-RUN apt-get install -y python python-pip python-dev git libssl-dev libffi-dev build-essential gdb git vim xterm x11-xserver-utils ruby-full bash-completion; exit 0;
+RUN apt-get install -y python python-pip python-dev git libssl-dev libffi-dev build-essential gdb git vim xterm x11-xserver-utils ruby-full bash-completion;
 
-RUN gem install one_gadget; exit 0;
+RUN gem install one_gadget;
 
-RUN python -m pip install --upgrade pwntools; exit 0;
+RUN python -m pip install --upgrade pwntools;
 
-RUN apt-get install qemu qemu-system qemu-system-arm qemu-system-common qemu-system-x86 qemu-user qemu-user-static; exit 0;
+RUN apt-get install qemu qemu-block-extra qemu-system qemu-system-arm qemu-system-common qemu-system-mips qemu-system-misc qemu-system-ppc qemu-system-s390x qemu-system-sparc qemu-system-x86 qemu-user qemu-user-static qemu-utils; exit 0;
 
 RUN echo "set tabstop=4\nset autoindent\nset shiftwidth=4\nset expandtab" >> /etc/vim/vimrc;
 RUN echo "xterm*faceName: Monospace\nxterm*faceSize: 18\nxterm*background: black\nxterm*foreground: green" > ~/.Xresources
