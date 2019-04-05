@@ -10,7 +10,7 @@ RUN gem install one_gadget;
 
 RUN python -m pip install --upgrade pwntools;
 
-RUN apt-get install qemu qemu-block-extra qemu-system qemu-system-arm qemu-system-common qemu-system-mips qemu-system-misc qemu-system-ppc qemu-system-s390x qemu-system-sparc qemu-system-x86 qemu-user qemu-user-static qemu-utils; exit 0;
+RUN apt-get install qemu qemu-user qemu-user-static;
 
 RUN echo "set tabstop=4\nset autoindent\nset shiftwidth=4\nset expandtab" >> /etc/vim/vimrc;
 RUN echo "xterm*faceName: Monospace\nxterm*faceSize: 18\nxterm*background: black\nxterm*foreground: green" > ~/.Xresources
