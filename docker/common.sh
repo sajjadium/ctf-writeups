@@ -10,5 +10,3 @@ UBUNTU_RELEASE=$1
 IMAGE="ctf-${UBUNTU_RELEASE}"
 CONTAINER=$IMAGE
 
-cd `dirname $0`
-
