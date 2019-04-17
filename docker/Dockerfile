@@ -12,7 +12,7 @@ RUN apt-get install -y gdb-arm-none-eabi; exit 0;
 
 RUN apt-get install -y qemu; exit 0;
 
-RUN gem install one_gadget;
+RUN gem install one_gadget; exit 0;
 
 RUN python -m pip install --upgrade pwntools;
 
