@@ -1,0 +1,1 @@
+In `InCTF 2018 - wARMup` challenge, there is a `stack overflow` vulnerability which allows us to overwrite return address with an arbitrary address. First, we use `read` to write our `shellcode` into the `.bss` and then jump to it. This is an interesting `ARM exploitation` challenge to learn bypassing protections like `Partial RELRO` and `ASLR` in `ARM` binaries.

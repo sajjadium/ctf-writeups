@@ -1,6 +1,10 @@
+*.core
 *_recompiled
 core
 .gdb_history
 .*.swp
 peda-session*.txt
+exploit
+exploit.o
+exploit.bin
 

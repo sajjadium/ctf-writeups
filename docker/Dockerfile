@@ -4,7 +4,7 @@ RUN apt-get update --fix-missing -y; exit 0;
 RUN apt-get install -y apt-utils; exit 0;
 RUN apt-get upgrade -y; exit 0;
 
-RUN apt-get install -y python python-pip python-dev git libssl-dev libffi-dev build-essential gdb git vim xterm x11-xserver-utils ruby-full bash-completion; exit 0;
+RUN apt-get install -y python python-pip python-dev git libssl-dev libffi-dev build-essential gdb git vim xterm x11-xserver-utils ruby-full bash-completion bsdmainutils; exit 0;
 
 RUN apt-get install -y gdb-multiarch; exit 0;
 RUN apt-get install -y gcc-arm-linux-gnueabihf; exit 0;
