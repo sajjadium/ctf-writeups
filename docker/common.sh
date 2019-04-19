@@ -7,6 +7,6 @@ if [ "$#" -ne 1 ]; then
 fi
 
 UBUNTU_RELEASE=$1
-IMAGE="ctf-${UBUNTU_RELEASE}"
+IMAGE="ctfium-${UBUNTU_RELEASE}"
 CONTAINER=$IMAGE
 
