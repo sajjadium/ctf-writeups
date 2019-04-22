@@ -25,6 +25,7 @@ docker create \
     -v $(realpath ../):/ctf \
     --net=host \
     --cap-add=SYS_PTRACE \
+    --privileged \
 	$OPTIONS \
     -i -t $CONTAINER
 

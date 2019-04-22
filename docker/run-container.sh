@@ -10,5 +10,5 @@ if [ "$(uname -s)" == "Darwin" ]; then
 fi
 
 docker start $CONTAINER
-docker exec --privileged -it $CONTAINER /bin/bash
+docker exec -it $CONTAINER /bin/bash
 
