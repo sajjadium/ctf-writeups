@@ -4,10 +4,16 @@ cd `dirname $0`
 
 source common.sh
 
-if [ "$(uname -s)" == "Darwin" ]; then
-	IP=`ipconfig getifaddr en0`
-    xhost + $IP
-fi
+case "$(uname -s)" in
+	Darwin)
+        IP=`ipconfig getifaddr en0`
+        xhost + $IP
+    	;;
+
+	Linux)
+        xhost local:root
+		;;
+esac
 
 docker start $CONTAINER
 docker exec -it $CONTAINER /bin/bash

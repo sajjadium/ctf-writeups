@@ -12,11 +12,11 @@ OPTIONS=""
 case "$(uname -s)" in
 	Darwin)
 		IP=`ipconfig getifaddr en0`
-    	OPTIONS="--env=DISPLAY=$IP:0 -v /tmp/.X11-unix:/tmp/.X11-unix"
+    	OPTIONS="-e DISPLAY=$IP:0"
     	;;
 
 	Linux)
-   		OPTIONS="--env=DISPLAY -v $HOME/.Xauthority:/root/.Xauthority:rw"
+   		OPTIONS="-e DISPLAY=$DISPLAY"
 		;;
 esac
 
