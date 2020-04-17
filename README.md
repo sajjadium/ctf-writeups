@@ -4,8 +4,8 @@ In order to run the challenge POCs without any problem, I prepared docker contai
 
 # Writeups
 
-| CTF                      | Challenge | Info | Exploitation |
-|--------------------------|-----------|-------------|--------------|
+| CTF                        | Challenge   | Info | Exploitation |
+|:--------------------------:|:-----------:|-------------|--------------|
 | [UTCTF 2019](UTCTF/2019) ([CTFtime](https://ctftime.org/event/757)) | [BabyEcho](UTCTF/2019/BabyEcho) | `x86_32`, `Partial RELRO`, `ASLR`, `NX` | `format string`, `global offset table (GOT)`, `libc database` |
 | [BSidesSF 2019](BSidesSF/2019) ([CTFtime](https://ctftime.org/event/753)) | [slowfire](BSidesSF/2019/slowfire) | `x86_64`, `Partial RELRO`, `ASLR` | `stack overflow`, `shellcode`, `syscall`, `socket`, `global offset table (GOT)`, `procedure linkage table (PLT)`  |
 | [TAMUctf 2019](TAMUctf/2019) ([CTFtime](https://ctftime.org/event/740)) | [pwn3](TAMUctf/2019/pwn3) | `x86_32`, `Full RELRO`, `PIE`, `ASLR` | `stack overflow`, `shellcode`, `syscall` |
