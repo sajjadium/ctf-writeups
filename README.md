@@ -6,7 +6,7 @@ In order to run the challenge POCs without any problem, I prepared docker contai
 
 | CTF                        | Challenge   | Info               | Exploitation         | Links     |
 |:--------------------------:|:-----------:|--------------------|----------------------|:---------:|
-| [UTCTF 2019](UTCTF/2019)| [BabyEcho](UTCTF/2019/BabyEcho) | `x86_32`<br>`Partial RELRO`<br>`ASLR`<br>`NX` | `format string`<br>`GOT`<br>`libc database` | [CTFtime Event](https://ctftime.org/event/757) |
+| [UTCTF 2019](UTCTF/2019)| [BabyEcho](UTCTF/2019/BabyEcho) | `x86_32`<br>`Partial RELRO`<br>`ASLR`<br>`NX` | `format string`<br>`GOT`<br>`libc database` | [CTFtime Event](https://ctftime.org/event/757)<br>[CTFtime Writeup](https://ctftime.org/event/757) |
 | [BSidesSF 2019](BSidesSF/2019)| [slowfire](BSidesSF/2019/slowfire) | `x86_64`<br>`Partial RELRO`<br>`ASLR` | `stack overflow`<br>`shellcode`<br>`syscall`<br>`socket`<br>`GOT`<br>`PLT`  | [CTFtime Event](https://ctftime.org/event/753) |
 | [TAMUctf 2019](TAMUctf/2019)| [pwn3](TAMUctf/2019/pwn3) | `x86_32`<br>`Full RELRO`<br>`PIE`<br>`ASLR` | `stack overflow`<br>`shellcode`<br>`syscall` | [CTFtime Event](https://ctftime.org/event/740) |
 | [TAMUctf 2019](TAMUctf/2019)| [pwn5](TAMUctf/2019/pwn5) | `x86_32`<br>`Partial RELRO`<br>`NX`<br>`ASLR` | `stack overflow`<br>`ret2libc` | [CTFtime Event](https://ctftime.org/event/740) |
