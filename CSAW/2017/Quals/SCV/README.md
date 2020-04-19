@@ -1,1 +1,0 @@
-In `CSAW Quals 2017 - SCV` challenge, we learn how to exploit stack-based overflows using ROP. Basically, there is a buffer out-of-bound access where we can launch `information disclosure` as well as `buffer overflow` attacks. First, we leak the `canary` value using `buffer over-read`, and then replace `return address` using `buffer overflow`.
