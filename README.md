@@ -1,4 +1,4 @@
-Collection of CTF "technical" writeups.
+# Collection of CTF "Technical" Writeups.
 
 # Preparing the Docker Containers
 
