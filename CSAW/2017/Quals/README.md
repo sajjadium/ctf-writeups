@@ -6,4 +6,4 @@
 
 | Challenge   | Info               | Exploitation         | Links     |
 |:-----------:|--------------------|----------------------|:---------:|
-| [scv](CSAW/2017/Quals/scv) | `x86_64`<br>`NX`<br>`Canary`<br>`Partial RELRO`<br>`ASLR` | `ROP`<br>`buffer over-read`<br>`buffer overflow`<br>`information disclosure`<br>`one gadget`<br>`stack overflow` | [Writeups](https://ctftime.org/task/4638)<br>[CTFium](https://github.com/sajjadium/CTFium/tree/master/CSAW/2017/Quals/scv) |
+| [scv](CSAW/2017/Quals/scv) | `x86_64` `NX` `Canary` `Partial RELRO` `ASLR` | `ROP` `buffer over-read` `buffer overflow` `information disclosure` `one gadget` `stack overflow` | [Writeups](https://ctftime.org/task/4638) [CTFium](https://github.com/sajjadium/CTFium/tree/master/CSAW/2017/Quals/scv) |
